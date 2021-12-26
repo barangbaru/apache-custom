@@ -1,7 +1,7 @@
 ---
 - hosts: semua
   vars:
-    - image: idndevops/apache-custom
+    - image: barangbaru/apache-custom
   tasks:
     - name: install python-docker
       yum:
